@@ -418,6 +418,33 @@ h5{
     text-shadow: 0 0 1px rebeccapurple;
 }
 
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.scroll-to-top button {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.scroll-to-top button:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.1);
+}
+
+
 footer{
     position: relative;
     width: 100%;
